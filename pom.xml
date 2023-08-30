@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>shiro-trie</artifactId>
-    <groupId>org.it-together</groupId>
+    <groupId>org.bit.products.libs</groupId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
