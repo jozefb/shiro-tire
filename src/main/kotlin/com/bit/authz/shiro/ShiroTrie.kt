@@ -138,7 +138,7 @@ private class ShiroTrieImpl(permissions: List<String>) : ShiroTrie {
             if (hasEmptyAny(node)) {
                 // if we find a star leaf in the trie, we are done (everything below is allowed)
                 return true
-            } else if (any != null && (permission[i] !== "*" && node[permission[i]] != null)) {
+            } else if (any != null && (permission[i] != "*" && node[permission[i]] != null)) {
                 // if there are multiple paths, we have to go recursive
                 val subPerm = permission.slice((i + 1) until permission.size).toMutableList()
                 return _check(any, subPerm) || _check(node[permission[i]] as Map<String, Any>, subPerm)
