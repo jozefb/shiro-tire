@@ -1,2 +1,2 @@
 # shiro-tire
-Kotlin fork of the excellent shiro-trie typescript library
+Kotlin fork of the excellent [shiro-trie](https://github.com/entrecode/shiro-trie) typescript library
